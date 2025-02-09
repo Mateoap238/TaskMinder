@@ -7,7 +7,7 @@ export default function Home() {
 
             <div className="flex flex-col justify-center items-center mb-12">
                 <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-gray-800  to-gray-900 bg-clip-text text-transparent">
-                    Bienvenido a TaskMinder
+                    Bienvenido a TaskMinder con Docker v2
                 </h1>
                 <p className="text-lg text-gray-600 mb-8">
                     Organiza tus tareas de manera eficiente y nunca olvides una fecha importante

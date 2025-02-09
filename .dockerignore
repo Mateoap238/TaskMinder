@@ -1,0 +1,29 @@
+# Evitar dependencias instaladas (serán instaladas dentro del contenedor)
+node_modules
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Archivos de configuración de Git
+.git
+.gitignore
+
+# Configuración local y archivos de entorno
+.env
+.env.local
+*.env
+
+# Archivos de compilación y caché
+dist
+build
+.cache
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+

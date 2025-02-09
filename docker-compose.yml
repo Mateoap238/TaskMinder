@@ -1,0 +1,14 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: taskminder_dev
+    volumes:
+      - .:/app  # Monta el código fuente en el contenedor
+      - /app/node_modules  # Evita conflictos con node_modules
+    ports:
+      - "5173:5173"
+    environment:
+      - NODE_ENV=development
+    command: ["npm", "run", "dev"]
