@@ -7,7 +7,7 @@ interface ButtonProps {
 export default function Button({ children, onClick }: ButtonProps) {
     return (
         <button
-            className="flex justify-center items-center bg-gray-800 hover:bg-gray-700 text-white cursor-pointer font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline  "
+            className="flex justify-center items-center bg-gray-800 hover:bg-gray-700 text-white cursor-pointer font-bold py-2 px-4 rounded-2xl focus:outline-none focus:shadow-outline  "
             onClick={onClick}>
             {children}
         </button>
